@@ -1,4 +1,4 @@
-﻿module Kata5
+module Kata5
 
 open Xunit
 open Swensen.Unquote
@@ -37,4 +37,4 @@ let ``Fourth row`` () =
 
 [<Fact>]
 let ``Fifth row`` () =
-    test <@ rowSumOddNumbers 4 = 125 @>
+    test <@ rowSumOddNumbers 5 = 125 @>
