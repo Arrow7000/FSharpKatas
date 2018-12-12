@@ -35,8 +35,8 @@ let ``For average of 30`` () =
 
 [<Fact>]
 let ``For average of 92`` () =
-    let result = forAverage dons 645
-    test <@ result = Some 0 @>
+    let result = forAverage dons 92
+    test <@ result = Some 645 @>
 
 [<Fact>]
 let ``For negative requirement`` () =
